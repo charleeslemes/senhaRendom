@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+
+}
+
+html,body{
+    height: 100%;
+    
+
+}
+
+main{
+background-image: url('../images/fundo.jpg');
+}
+
+.title{
+    -ms-transform: translateX(-50%);
+}
+
+
+
+.senha{
+    -ms-transform: translateX(-50%);
+  
+}
+
+
+.senha input[name=password]:focus{
+    outline: none;
+}
+
+.senha input::placeholder {
+    font-family: Shadows Into Light;
+    color: white;
+  }
+
+
+
+
+  .suaSenha{
+    -ms-transform: translateX(-50%);
+   
+  }
+
+  .suaSenha h2{
+    font-family: roboto;
+    font-weight: normal;
+    font-size: 36px;
+  }
+
