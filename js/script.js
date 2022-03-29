@@ -35,20 +35,22 @@
 
     /* */
 
-    senha.style.fontFamily="Shadows Into Light";
+   /* senha.style.fontFamily="Shadows Into Light";
     senha.style.position="absolute";
     senha.style.top="50%";
     senha.style.left="50%";
-    senha.style.transform="translateX(-50%)";
+    senha.style.transform="translateX(-50%)";*/
 
     /* */
 
     inputPassword.style.padding="15px";
     inputPassword.style.width="300px";
     inputPassword.style.height="50px";
-    inputPassword.style.backgroundColor="gray";
-    inputPassword.style.color="white";
+    inputPassword.style.backgroundColor="white";
+    inputPassword.style.color="gray";
+    inputPassword.style.borderRadius="10px";
     inputPassword.style.fontSize="20px";
+    inputPassword.style.border="0";
 
     /* */
 
@@ -56,7 +58,8 @@
     inputButton.style.cursor="pointer";
     inputButton.style.border="0";
     inputButton.style.width="80px"
-    inputButton.style.height="60px";
+    inputButton.style.height="50px";
+    inputButton.style.borderRadius="10px";
     inputButton.style.backgroundColor="gray";
     inputButton.style.color="white";
     inputButton.style.fontSize="20px";

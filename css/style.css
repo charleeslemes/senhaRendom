@@ -3,8 +3,6 @@
     padding:0;
     box-sizing: border-box;
     
-    
-
 }
 
 html,body{
@@ -15,6 +13,9 @@ html,body{
 
 main{
 background-image: url('../images/fundo.jpg');
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .title{
@@ -24,8 +25,17 @@ background-image: url('../images/fundo.jpg');
 
 
 .senha{
-    -ms-transform: translateX(-50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
   
+}
+
+.senha input[type="text"], input[type="submit"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
 }
 
 
@@ -35,7 +45,7 @@ background-image: url('../images/fundo.jpg');
 
 .senha input::placeholder {
     font-family: Shadows Into Light;
-    color: white;
+    color: rgb(73, 73, 73);
   }
 
 
@@ -47,8 +57,17 @@ background-image: url('../images/fundo.jpg');
   }
 
   .suaSenha h2{
+    width: 100%;
+      text-align: center;
     font-family: roboto;
     font-weight: normal;
     font-size: 36px;
+  }
+
+
+  @media screen and (max-width: 768px){
+      .suaSenha h2{
+          font-size: 30px;
+      }
   }
 
